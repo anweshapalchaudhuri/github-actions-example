@@ -41,7 +41,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>springboot-images-new</finalName>
+        <finalName>springbootpoc-github-action</finalName>
     </build>
 
 </project>
