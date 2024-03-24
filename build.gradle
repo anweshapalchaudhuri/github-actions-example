@@ -32,6 +32,14 @@ publishing {
     }
 }
 
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.anwesha.Main.java' // Replace 'com.example.MainClassName' with your main class
+        )
+    }
+}
+
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
