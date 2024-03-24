@@ -5,6 +5,9 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
+    id 'org.springframework.boot' version '2.6.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
 }
 
 repositories {
@@ -15,7 +18,7 @@ repositories {
 }
 
 dependencies {
-    api libs.org.springframework.boot.spring.boot.starter.web
+    implementation libs.org.springframework.boot.spring.boot.starter.web
     testImplementation libs.org.springframework.boot.spring.boot.starter.test
 }
 
@@ -32,13 +35,14 @@ publishing {
     }
 }
 
-jar {
-    manifest {
-        attributes(
-                'Main-Class': 'org.anwesha.Main' // Replace 'com.example.MainClassName' with your main class
-        )
-    }
-}
+//jar {
+//    manifest {
+//        attributes(
+//                'Main-Class': 'org.anwesha.Main' // Replace 'com.example.MainClassName' with your main class
+//        )
+//        from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+//    }
+//}
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
