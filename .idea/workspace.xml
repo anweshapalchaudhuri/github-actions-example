@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f98a0e-a7f8-4e1b-b8ed-82322c47bc93" name="Changes" comment="deleted gradle folder old .idea folder" />
+    <list default="true" id="84f98a0e-a7f8-4e1b-b8ed-82322c47bc93" name="Changes" comment="delete .gradle sub-folder">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,11 +69,28 @@
       <option name="project" value="LOCAL" />
       <updated>1711217663929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="delete .gradle sub-folder">
+      <option name="closed" value="true" />
+      <created>1711277999379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711277999379</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delete .gradle sub-folder">
+      <option name="closed" value="true" />
+      <created>1711279296464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711279296464</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted gradle folder old .idea folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted gradle folder old .idea folder" />
+    <MESSAGE value="delete .gradle sub-folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete .gradle sub-folder" />
   </component>
 </project>
